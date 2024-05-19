@@ -1,7 +1,6 @@
 import SkillSection from "./SkillSection";
 import ProjectSection from "./ProjectSection";
 import BottomSection from "./BottomSection";
-import ContactSection from "./ContactSection";
 
 export default function MainBody() {
   return (
@@ -9,7 +8,6 @@ export default function MainBody() {
       <SkillSection />
       <ProjectSection />
       <BottomSection />
-      <ContactSection />
     </div>
   );
 }

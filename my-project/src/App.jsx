@@ -8,14 +8,14 @@ import ProjectSection from "./components/ProjectSection";
 
 function App() {
   return (
-    <>
+    <div className="font-sans leading-6">
       <Navbar />
       <HomeSection />
       <AboutSection />
       <ProjectSection />
       <ContactSection />
       <Footer />
-    </>
+    </div>
   );
 }
 

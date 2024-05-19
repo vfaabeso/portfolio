@@ -1,7 +1,8 @@
 export default function ProjectSection() {
   return (
-    <section id="projects">
-      <h2>Projects</h2>
+    <section id="projects" className="p-8 mx-0.5">
+      <p className="text-center font-bold text-2xl">Projects</p>
+
       <ul>
         <li>
           <a href="https://github.com/yourusername/project1">Project 1</a>

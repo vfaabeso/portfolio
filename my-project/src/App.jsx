@@ -1,17 +1,18 @@
 import "./App.css";
-import AboutSection from "./components/AboutSection";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
-import HomeSection from "./components/HomeSection";
 import Navbar from "./components/Navbar";
 import ProjectSection from "./components/ProjectSection";
+import InterestSection from "./components/InterestSection";
+import SkillSection from "./components/SkillSection";
 
 function App() {
   return (
     <div className="font-sans leading-6">
       <Navbar />
-      <HomeSection />
-      <AboutSection />
+      {/* <HomeSection /> */}
+      <InterestSection />
+      <SkillSection />
       <ProjectSection />
       <ContactSection />
       <Footer />

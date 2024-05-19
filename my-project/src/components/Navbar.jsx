@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <header className="bg-slate-700 text-white px-4 py-4 text-center">
       <nav className="flex justify-between flex-col md:flex-row">
-        <p className="px-6 py-4 text-xl md:py-0">Farrel Beso</p>
+        <p className="px-6 py-4 text-4xl md:py-0 md:text-xl">Farrel Beso</p>
         <ul>
           <NavbarButton link="home" linkName="Home" />
           <NavbarButton link="skills" linkName="About" />

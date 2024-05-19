@@ -7,7 +7,7 @@ export default function ProjectSection() {
         Projects and Activities
       </p>
       <hr />
-      <div className="flex justify-center p-4">
+      <div className="flex justify-center p-4 flex-col lg:flex-row">
         <ProjectCard
           title="STALS"
           details="An information system that allows users to search, get information, review, and report hotels, apartments, bed space, dormitories, and transient spaces in Los Baños."

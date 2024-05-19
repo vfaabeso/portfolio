@@ -5,7 +5,7 @@ export default function SkillSection() {
     <section id="skills" className="p-8 mx-0.5">
       <p className="text-center font-bold text-3xl p-4">Skills</p>
       <hr />
-      <div className="flex justify-center p-4">
+      <div className="flex justify-center p-4 flex-col lg:flex-row">
         <Card
           title="Web Programming"
           details="MERN Stack, with a strong emphasis on backend development."

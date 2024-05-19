@@ -6,9 +6,9 @@ export default function Navbar() {
       <nav>
         <ul>
           <NavbarButton link="home" linkName="Home" />
-          <NavbarButton link="about" linkName="About" />
+          <NavbarButton link="skills" linkName="About" />
           <NavbarButton link="projects" linkName="Projects" />
-          <NavbarButton link="contact" linkName="Contact" />
+          <NavbarButton link="footer" linkName="Contact" />
         </ul>
       </nav>
     </header>

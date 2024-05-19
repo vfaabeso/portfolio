@@ -1,22 +1,24 @@
-import Card from "./Card";
+import ProjectCard from "./ProjectCard";
 
 export default function ProjectSection() {
   return (
     <section id="projects" className="p-8 mx-0.5">
-      <p className="text-center font-bold text-3xl p-4">Projects</p>
+      <p className="text-center font-bold text-3xl p-4">
+        Projects and Activities
+      </p>
       <hr />
       <div className="flex justify-center p-4">
-        <Card
-          title="Web Programming"
-          details="MERN Stack, with a strong emphasis on backend development."
+        <ProjectCard
+          title="STALS"
+          details="An information system that allows users to search, get information, review, and report hotels, apartments, bed space, dormitories, and transient spaces in Los Baños."
         />
-        <Card
-          title="Mobile Programming"
-          details="Flutter Development, able to perform both frontend and backend rapidly."
+        <ProjectCard
+          title="Multi-user Todo App"
+          details="A feature-rich application built with Flutter and Firebase, enabling multiple users to manage and collaborate on tasks seamlessly. The app supports real-time updates, user authentication, and task sharing."
         />
-        <Card
-          title="Reinforcement Learning"
-          details="Tabular RL, programs the algorithms by hand as a method of learning."
+        <ProjectCard
+          title="RL Implementation"
+          details="An implementation of tabular reinforcement learning algorithms using Python, algorithms from the book 'Reinforcement Learning: An Introduction' for self-study purposes."
         />
       </div>
     </section>

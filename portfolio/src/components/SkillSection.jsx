@@ -15,8 +15,8 @@ export default function SkillSection() {
           details="Flutter Development, able to perform both frontend and backend rapidly."
         />
         <Card
-          title="Reinforcement Learning"
-          details="Tabular RL, programs the algorithms by hand as a method of learning."
+          title="Database Management"
+          details="MongoDB, Firebase, and SQL, frequently used in web and mobile programming."
         />
       </div>
     </section>
